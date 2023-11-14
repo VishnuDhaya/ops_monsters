@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    padding: 20px;
+}
+.nav-logo{
+    cursor: pointer;
+    margin: 10px 0 0 112px;
+}
+.nav-button{  
+    font-size: 12px;
+    margin-top:8px;
+    padding: 5px 22px;
+}
+
+.nav-li{
+    margin: 7px 0 0;
+    font-size: 15px; 
+    font-weight: 400;
+    letter-spacing: 0.5px; 
+}
