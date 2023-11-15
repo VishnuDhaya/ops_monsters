@@ -3,6 +3,18 @@
     margin: 0;
 }
 
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none; 
+    color: inherit; 
+}
 nav{
     display: flex;
     padding: 20px 0 20px 0 !important;
@@ -21,4 +33,58 @@ nav{
     font-size: 15px; 
     font-weight: 400;
     letter-spacing: 0.5px; 
+}
+
+footer{
+    background-color: #121212;
+    
+    
+}
+footer p{
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 10px;
+    opacity: .6;
+    padding: 5px;
+
+}
+footer h6{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+footer .anticon {
+    color: #fff;
+    cursor: pointer;
+    font-size: 23px;
+    margin-right: 6px;
+}
+
+.footer-content{
+    padding: 70px 0 70px 0;
+}
+
+footer ul li{
+    color: #fff;
+    line-height: 35px;
+    list-style: none;
+    opacity: .8;
+}
+
+footer ul li a{
+    color: #fff;
+    line-height: 35px;
+    list-style: none;
+    opacity: .8;
+}
+
+footer h5{
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-copyright{
+    background-color: #000;
 }
