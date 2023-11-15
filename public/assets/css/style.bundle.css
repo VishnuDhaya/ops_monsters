@@ -2,17 +2,17 @@
     padding: 0;
     margin: 0;
 }
+
 nav{
     display: flex;
-    padding: 20px;
+    padding: 20px 0 20px 0 !important;
 }
 .nav-logo{
     cursor: pointer;
-    margin: 10px 0 0 112px;
+    margin: 10px 0 0 0;
 }
 .nav-button{  
     font-size: 12px;
-    margin-top:8px;
     padding: 5px 22px;
 }
 

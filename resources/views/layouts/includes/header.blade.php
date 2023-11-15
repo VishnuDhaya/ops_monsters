@@ -1,10 +1,10 @@
-<header>
-    <nav>
-        <div>
+<header class="container">
+    <nav class="d-flex">
+        <div class="flex-fill">
             <img class="nav-logo" src="https://zunocabs.com/static/media/lk.97a6f1b4caf2372aca35.png" alt="company-logo" width="120px" height="auto">
-        </div>
-        <ul class="nav">
-            <li class="nav-item nav-li" style="margin-left:92px;">
+        </div>  
+        <ul class="nav flex-fill justify-content-end">
+            <li class="nav-item nav-li" style="margin-left:61px;">
               <a class="nav-link text-dark" href="#">Home</a>
             </li>
             <li class="nav-item nav-li">
@@ -18,9 +18,8 @@
             </li>
             <li class="nav-item nav-li">
                 <a class="nav-link text-dark" href="#">Contact Us</a>
-                {{-- <div class="nav-button">
-                    <button>Download</button>
-                </div> --}}
+            </li>
+            <li class="nav-item nav-li">
                 <button class="rounded-pill text-white bg-dark nav-button">Download</button>
             </li>
             
