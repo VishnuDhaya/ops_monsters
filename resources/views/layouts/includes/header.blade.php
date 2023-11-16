@@ -1,4 +1,4 @@
-<header class="container">
+<header class="container sticky-top">
     <nav class="d-flex">
         <div class="flex-fill">
             <img class="nav-logo" src="https://zunocabs.com/static/media/lk.97a6f1b4caf2372aca35.png" alt="company-logo" width="120px" height="auto">
@@ -26,3 +26,5 @@
           </ul>
     </nav>
 </header>
+
+
