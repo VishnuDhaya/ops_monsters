@@ -93,7 +93,7 @@ footer h5{
     padding: 20px 0 20px 0;
     margin: auto;
     color: darkblue;
-    font: 700 normal 4em 'tahoma';
+    font: 700 normal 3.2rem 'tahoma';
     /* font-size: 30pt; */
     font-family: inherit;
     font-weight: 400;
@@ -102,25 +102,26 @@ footer h5{
 /* Text animation right left begin*/
 .animate-charcter
 {
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 85px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 85px;
+    font-weight: bold;
 }
 
 @keyframes textclip {
@@ -137,7 +138,43 @@ footer h5{
     font-weight: 300;
     font-size: 40px;
 }
+
 .slider p{
     padding: 40px 0 20px 0;
     font-size: 18px;
+}
+
+.whychoose-panel{
+    background: linear-gradient(45deg, rgb(52, 109, 243) 0%, rgb(0, 162, 255) 100%);
+}
+
+.whychoose-panel .container{
+    padding: 50px 0 50px 0;
+}
+
+.whychoose-toppanel{
+    padding-left: 50px;
+    border-left: 3px solid #fff;
+    color: #FFF;
+}   
+
+.whychoose-toppanel h2{
+   font-size: 40px;
+   margin-bottom: 30px;
+}
+
+.whychoose-toppanel p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.container .box-wrapper{
+    background-color: #158efb;
+    padding: 30px !important;
+    color: #FFF;
+}
+
+.container .box-wrapper img{
+    margin: 10px 0 !important;
 }
