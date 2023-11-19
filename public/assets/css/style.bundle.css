@@ -215,7 +215,7 @@ footer h5{
     max-width: 400px;
 }
 
-.manage-project-panel .container .list-panel{
+.list-panel{
     display: inline-block;
     width: 100%;
     padding-left: 35px;
@@ -261,20 +261,20 @@ padding: 25px 80px;
 .start-project-btn::before, .start-project-btn::after{
     content:"";
     width: 0;
-    height: 2px;
+    height: 1px;
     position: absolute;
     transition: all 0.2s linear;
-    background: #000;
+    background: #0000ff;
     border-left: none;
 }
 
 span::before, span::after{
     content:"";
-    width:2px;
+    width:1px;
     height:0;
     position: absolute;
     transition: all 0.2s linear;
-    background: #000;
+    background: #0000ff;
 }
 .start-project-btn:hover::before, .start-project-btn:hover::after{
     width: 100%;
@@ -319,28 +319,213 @@ span::before, span::after{
     background-color: #F6F6F6;
 }
 
-
+/* Jumping industry fone animation begin */
 .waviy {
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
     font-family: "Poppins", sans-serif;
     font-size: 80px;
-  }
-  .waviy span {
+}
+.waviy span {
     font-family: 'Alfa Slab One', cursive;
     position: relative;
     display: inline-block;
     color: #3C4142 ;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     animation: waviy 1s infinite;
     animation-delay: calc(.1s * var(--i));
     
-  }
-  @keyframes waviy {
+}
+@keyframes waviy {
     0%,40%,100% {
-      transform: translateY(0)
+        transform: translateY(0)
     }
     20% {
-      transform: translateY(-20px)
+        transform: translateY(-20px)
     }
-  }
+}
+
+/* Jumping industry fone animation end */
+
+.industry-panel .container{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.heading-two{
+    font-size: 40px;
+    color: #158efb;
+}
+
+.para-desc{
+    width: 100%;
+    max-width: 540px;
+    margin: 30px auto;
+}
+
+.industry-panel .container img{
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+    margin: 20px 0;
+}
+
+.hireus-panel{
+    padding: 80px 0;
+}
+
+.hireus-panel h2{
+    font-size: 40px;
+}
+
+.hireus-panel h4{
+    max-width: 100%;
+    font-size: 35px;
+    color: #158efb;
+}
+
+.client-panel{
+    background-color: #f9f9f9;
+    padding-bottom: 150px;
+}
+
+.client-panel .container{
+    padding-top: 120px;
+}
+
+.client-panel h2{
+    letter-spacing: 10px;
+    font-family: italic;
+}
+
+.client-panel h3{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.client-panel .national{
+    background: url('https://www.theaquarious.com/assets/images/clientale-national-bg.jpg') no-repeat;
+    background-position: -38px center;
+    background-size: contain;
+    padding-bottom: 100px;
+}
+
+.national h3{
+    font-size: 40px;
+    margin-bottom: 40px;
+    width: auto;
+    margin-left: 0;
+    opacity: 1;
+    color: #158efb;
+}
+
+.national ul{
+    margin: 0;
+    padding-left: 290px;
+    column-count: 3;
+}
+
+.client_logo_box{
+    background: #fff;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 20px rgba(214, 239, 251, 0.95);
+    border-radius: 20px;
+    margin: 10px 5px;
+}
+
+.client_logo_box img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.international{
+    background: url('https://www.theaquarious.com/assets/images/clientele-international-bg.jpg') no-repeat;
+    background-position: right bottom -50px;
+    background-size: contain;
+}
+
+.international h3{
+    font-size: 40px;
+    margin-bottom: 40px;
+    width: auto;
+    margin-left: 0;
+    opacity: 1;
+    color: #158efb;
+    text-align: right;
+}
+
+.international ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 290px;
+    column-count: 3;
+    padding-left: 2rem;
+}
+
+.solution-panel .container{
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.solution-panel .icon_box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.solution-panel img{
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+    margin: 20px 0;
+}
+
+.solution-panel .img-dxc{
+    margin-left: 35px;
+}
+
+.solution-panel .img-dxc h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.let-talk{
+    margin-top: 50px;
+}
+
+.ourtech-panel{
+    padding: 125px 0 100px;
+    background-color: #f6f6f6;
+}
+
+.ourtech-panel h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.exp-bx{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-width: 312px;
+    height: 90px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.exp-bx img{
+    max-width: 60px;
+    width: auto;
+    margin-right: 30px;
+}
