@@ -529,3 +529,93 @@ span::before, span::after{
     width: auto;
     margin-right: 30px;
 }
+
+.world-map{
+    background: transparent linear-gradient(233deg, #00a2ff 0%, #346df3 100%) 0% 0% no-repeat padding-box;
+}
+
+.world-map ul{
+    margin: 0;
+    list-style-type: none;
+}
+
+.world-map ul li{
+   margin-top: 0;
+}
+
+.world-map ul li{
+    display: inline-block;
+    color: #fff;
+    margin: 50px 0;
+    border-left: 8px solid white;
+    padding-left: 50px;
+    font-size: 40px;
+    margin: 20px 0;
+
+}
+
+.world-map ul li span{
+    font-weight: 600;
+}
+
+.specify-panel .container{
+    padding: 120px 0 80px 0;
+}
+
+.specify-panel .icon_box{
+    display: block;
+    width: 100%;
+}
+
+.specify-panel .img-dxc{
+    margin-left: 0;
+}
+
+.specify-panel .img-dxc h6{
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.specify-panel .img-dxc p{
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.specify-panel .icon_box img{
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+    margin: 20px 0;
+}
+
+.review-panel{
+    background-color: #f6f6f6;
+    color: #000;
+}
+
+.review-panel .container{
+    padding: 100px 0 80px 0;
+}
+
+.review-panel .container h2{
+    font-size: 50px;
+    color: #000;
+    font-weight: 600;
+}
+
+.review-panel .container h2 img{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    filter: invert(0%);
+}
+
