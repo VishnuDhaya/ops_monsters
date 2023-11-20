@@ -545,8 +545,422 @@
               <h4>Angular</h4>
             </div>
           </div>
+          {{-- Second row --}}
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-bigcommerce.svg" alt="Angular logo">
+              <h4>BigCommerce</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-stickyio.svg" alt="Flutter logo">
+              <h4>sticky.io</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-android.svg" alt="Angular logo">
+              <h4>Androidf</h4>
+            </div>
+          </div>
+
+          {{-- Third row --}}
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-codei.svg" alt="Angular logo">
+              <h4>CodeIgniter</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-drupal.svg" alt="Flutter logo">
+              <h4>Drupal</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="	https://www.theaquarious.com/assets/icons/ode-next.svg" alt="Angular logo">
+              <h4>29NEXT</h4>
+            </div>
+          </div>
+
+          {{-- Fourth row --}}
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-iconic.svg" alt="Angular logo">
+              <h4>Iconic</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-jq.svg" alt="Flutter logo">
+              <h4>Jquery</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-magen.svg" alt="Angular logo">
+              <h4>Magento</h4>
+            </div>
+          </div>
+
+          {{-- Fifth row --}}
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src=":	https://www.theaquarious.com/assets/icons/ode-zoho.svg" alt="Angular logo">
+              <h4>Zoho</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="	https://www.theaquarious.com/assets/icons/ode-apple.svg" alt="Flutter logo">
+              <h4>ios</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/laravel-logo.svg" alt="Angular logo">
+              <h4>Laravel</h4>
+            </div>
+          </div>
+
+          {{-- Sixth row --}}
+
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-shopify.svg" alt="Angular logo">
+              <h4>Shopify</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="	https://www.theaquarious.com/assets/icons/ode-swift.svg" alt="Flutter logo">
+              <h4>Swift</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="	https://www.theaquarious.com/assets/icons/ode-hybrid.svg" alt="Angular logo">
+              <h4>Hybrid</h4>
+            </div>
+          </div>
+
+          {{-- Seventh row --}}
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-codei.svg" alt="Angular logo">
+              <h4>Node.js</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-ultracart.svg" alt="Flutter logo">
+              <h4>UltraCart</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-subl.svg" alt="Angular logo">
+              <h4>Sublytics</h4>
+            </div>
+          </div>
+
+          {{-- Seventh row --}}
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-react.svg" alt="Angular logo">
+              <h4>React</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-woocommerce.svg" alt="Flutter logo">
+              <h4>WooCommerce</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-php.svg" alt="Angular logo">
+              <h4>PHP</h4>
+            </div>
+          </div>
+
+          {{-- Eighth row --}}
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-wordpress.svg" alt="Angular logo">
+              <h4>Wordpress</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-sym.svg" alt="Flutter logo">
+              <h4>Symfony</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            {{-- <div class="exp-bx aos-init" data-aos="flip-up">
+              <img src="https://www.theaquarious.com/assets/icons/ode-php.svg" alt="Angular logo">
+              <h4>PHP</h4>
+            </div> --}}
+          </div>
 
         </div>
+      </div>
+    </section>
+
+    {{-- World map panel --}}
+    <section class="world-map">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <div class="main">
+                  <img data-aos="fade-left" src="https://www.theaquarious.com/assets/images/map.png" alt="World map" class="map aos-init aos-animate">
+                  <ul data-aos="fade-up" class="aos-init aos-animate">
+                      <li>Life-Time <span> Support</span></li>
+                      <li>Assurance of <span> Quality</span></li>
+                      <li>On-Time <span> Delivery</span></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    {{-- specialization panel --}}
+
+    <section class="specify-panel">
+      <div class="waviy pt-5 ps-5">
+        <span style="--i:1">S</span>
+        <span style="--i:1">p</span>
+        <span style="--i:2">e</span>
+        <span style="--i:3">c</span>
+        <span style="--i:4">i</span>
+        <span style="--i:5">a</span>
+        <span style="--i:6">l</span>
+        <span style="--i:7">i</span>
+        <span style="--i:7">z</span>
+        <span style="--i:7">a</span>
+        <span style="--i:7">t</span>
+        <span style="--i:7">i</span>
+        <span style="--i:7">o</span>
+        <span style="--i:7">n</span>
+      </div>
+      <div class="container mt-5">
+        <div class="row gy-5">
+
+          {{-- First row --}}
+          <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+               <div class="icon_box">
+                 <img src="https://www.theaquarious.com/assets/icons/os-one.svg" alt="qualitative services">
+                  <div class="img-dxc">
+                      <h6>Qualitative Services</h6>
+                      <p>We focus on quality 100%. Don’t like it? We change it immediately.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+              <div class="icon_box">
+                  <img src="https://www.theaquarious.com/assets/icons/os-two.svg" alt="well-documented NDA">
+                  <div class="img-dxc">
+                      <h6>Well-Documented NDA</h6>
+                      <p>Privacy matters most! We make sure to keep your project strictly unique with our thorough
+                          non-disclosure agreements. </p>
+                  </div>
+              </div>
+          </div>
+
+          {{-- Second row --}}
+          <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+              <div class="icon_box">
+                  <img src="https://www.theaquarious.com/assets/icons/os-three.svg" alt="scalable operations">
+                  <div class="img-dxc">
+                      <h6>Scalable Operations</h6>
+                      <p>Your website speaks! With our unique and eye catching designs, attract business from al
+                          over the world.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+              <div class="icon_box">
+                  <img src="https://www.theaquarious.com/assets/icons/os-four.svg" alt="quick turnaround times">
+                  <div class="img-dxc">
+                      <h6>Quick Turnaround Time</h6>
+                      <p>Working on a time crunch? You have come to the right place. We work faster than you
+                          imagine.</p>
+                  </div>
+              </div
+          </div>
+
+          {{-- Third row --}}
+          <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+              <div class="icon_box">
+                  <img src="https://www.theaquarious.com/assets/icons/os-five.svg" alt="dedicatd project manager">
+                  <div class="img-dxc">
+                      <h6>Dedicated Project Manager</h6>
+                      <p>Need assistance now? We’re on it! Your assigned project manager is here to cater to your
+                          individual requirements. </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+             <div class="icon_box">
+                  <img src="https://www.theaquarious.com/assets/icons/os-six.svg" alt="agnecy-centric processes">
+                  <div class="img-dxc">
+                      <h6>Agency-Centric Processes</h6>
+                      <p>Our emphasis is solely on your unique needs. Difficult requirements? We work to deliver
+                        beyond your expectations.</p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      </div>
+    </section>
+
+    {{-- Client reviews --}}
+    <section class="review-panel">
+      <div class="container">
+        <h2>
+          Client's Reviews <img src="https://www.theaquarious.com/assets/images/star-fill.svg" alt="star rating">
+        </h2>
+        <p>
+          97 Out Of 100 Clients Have Given Us A Five Star Rating On Google
+        </p>
+
+        <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+              <div class="d-none d-sm-block">
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+            
+              <div class="d-none d-sm-block">
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+      
+              <div class="d-none d-sm-block">
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-block d-sm-none">
+
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="d-none d-sm-block">
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+            
+              <div class="d-none d-sm-block">
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+      
+              <div class="d-none d-sm-block">
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-block d-sm-none">
+
+                <div class="card ms-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
       </div>
     </section>
 @endsection
