@@ -146,7 +146,7 @@ footer h5{
 }
 
 .slider p{
-    padding: 40px 0 20px 0;
+    padding: 5px 0 5px 0;
     font-size: 18px;
 }
 
@@ -215,6 +215,7 @@ footer h5{
     max-width: 400px;
 }
 
+
 .list-panel{
     display: inline-block;
     width: 100%;
@@ -223,6 +224,12 @@ footer h5{
     border-left: 1px solid rgba(0, 0, 0, 0.6);
 }
 
+.form-module{
+    border-left: none;
+    padding-left: 0px;
+
+}
+ 
 .list-panel ul{
     padding-left: 0;
 }
@@ -237,7 +244,7 @@ footer h5{
 }
 
 .list-panel ul li img{
-    padding-right: 15px;
+    padding: 8px 15px 0 0;
 }
 
 /* Start project border animation begin */
@@ -537,6 +544,7 @@ span::before, span::after{
 .world-map ul{
     margin: 0;
     list-style-type: none;
+    padding-bottom: 170px;
 }
 
 .world-map ul li{
@@ -619,3 +627,133 @@ span::before, span::after{
     filter: invert(0%);
 }
 
+.contact-us{
+    padding-bottom: 60px;
+}
+
+.contact-us .forminputbox_wrapper{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    background-color: #000;
+    margin: 10px 0;
+
+}
+
+.forminputbox_wrapper{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    background-color: #000;
+    margin: 10px 0;
+}
+
+.forminputbox_wrapper .leftico_panel{
+    width: 62px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.forminputbox_wrapper .leftico_panel img{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 35px;
+    max-height: 30px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.forminputbox_wrapper .rightbox_panel{
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 66px);
+    background-color: #f2f4f4;
+}
+
+.form-floating{
+    position: relative;
+}
+
+.forminputbox_wrapper .rightbox_panel textarea.form-control{
+    height: 160px;
+}
+
+.contact-us button span{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.stay-update-panel{
+    background-color: #158efb;
+    color: #fff;
+    padding: 35px 0;
+}
+
+.stay-update-panel .left img{
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.stay-update-panel .left{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.form-floating{
+    position: relative;
+}
+
+.form-floating>input{
+    background-color:  #158efb;
+    padding: 1rem 0.75rem;  
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;  
+}
+
+.form-floating>lable{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+    display: inline-block;
+}
+
+.stay-update-panel .custom_button{
+    background-color: #fbbe15;
+    color: #000;
+    text-align: center;
+    padding: 18px 48px;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+}
+
+.stay-update-panel h3{
+    font-size: 33px;
+}
+
+.enquiry-form{
+    background: #fff !important;
+}
