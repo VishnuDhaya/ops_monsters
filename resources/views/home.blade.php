@@ -9,41 +9,153 @@
 
     {{-- Slider panel --}}
     <section class="container slider">
-        <h2>Talk to us and get your
-            project moving!</h2>
-        <p>This is exactly what will happen after you submit your form:</p>
-        <div id="carouselExampleIndicators" class="carousel slide pb-5">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <h2>Talk to us and get your
+          project moving!</h2>
+      <p>This is exactly what will happen after you submit your form:</p>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
 
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://www.theaquarious.com/assets/images/step_i-01.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://www.theaquarious.com/assets/images/step_ii-01.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://www.theaquarious.com/assets/images/step_iii-01.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="https://www.theaquarious.com/assets/images/step_iv-01.webp" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.theaquarious.com/assets/images/step_i-01.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.theaquarious.com/assets/images/step_ii-01.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.theaquarious.com/assets/images/step_iii-01.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.theaquarious.com/assets/images/step_iv-01.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      {{-- Form module --}}
+      <div class="col-12 pt-4">
+        <div class="list-panel form-module">
+          <ul>
+            <li class="d-flex">
+              <img class="align-self-start" src="https://www.theaquarious.com/assets/icons/blue-bullet.svg" alt="bullet-icon">
+              <p class="listbox">
+                We will respond to you with in 10 hours.
+              </p>  
+            </li>
+            <li class="d-flex">
+              <img class="align-self-start" src="https://www.theaquarious.com/assets/icons/blue-bullet.svg" alt="bullet-icon">
+              <p class="listbox">
+                We'll sign an NDA if requested.
+              </p>
+            </li>
+            <li class="d-flex">
+              <img class="align-self-start" src="https://www.theaquarious.com/assets/icons/blue-bullet.svg" alt="bullet-icon">
+              <p class="listbox">
+                You'll be taking to product and tech experts ( no account managers. )
+              </p>
+            </li>
+          </ul>
+      </div>
+
+      {{-- Form section --}}
+      <div class="col-12 col-lg-6">
+        <form action="" class="contact-us" id="budgetCall">
+          <div class="forminputbox_wrapper">
+              <div class="leftico_panel">
+                  <img src="https://www.theaquarious.com/assets/icons/project-ico.svg" alt="project icon">
+              </div>
+              <div class="rightbox_panel">
+                  <div class="form-floating">
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" name="message" required=""></textarea>
+                      <label for="floatingTextarea2">Comments*</label>
+                  </div>
+              </div>
+          </div>
+          <div class="forminputbox_wrapper">
+              <div class="leftico_panel">
+                  <img src="https://www.theaquarious.com/assets/icons/budget.svg" alt="budget icon">
+              </div>
+              <div class="rightbox_panel">
+                  <div class="form-floating">
+                      <select name="budget" class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                          <option value="No Budge Selected" selected="">Select</option>
+                          <option value="1000">$0 - $1000</option>
+                          <option value="5000">$1001 - $5000</option>
+                          <option value="10000">$5001 - $10000</option>
+                          <option value="50000">$10001 - $50000</option>
+                          <option value="50001">Above $50000</option>
+                      </select>
+                      <label for="floatingSelect">Choose Budget size</label>
+                  </div>
+              </div>
+          </div>
+          <div class="forminputbox_wrapper">
+              <div class="leftico_panel">
+                  <img src="https://www.theaquarious.com/assets/icons/person.svg" alt="person icon">
+              </div>
+              <div class="rightbox_panel">
+                  <div class="form-floating">
+                      <input required="" type="text" class="form-control enquiry-form" id="floatingInput" placeholder="namehere" name="name">
+                      <label for="floatingInput">Name*</label>
+                  </div>
+              </div>
+          </div>
+
+          <div class="forminputbox_wrapper">
+              <div class="leftico_panel">
+                  <img src="https://www.theaquarious.com/assets/icons/phone.svg" alt="phone icon">
+              </div>
+              <div class="rightbox_panel">
+                  <div class="form-floating">
+                      <input required="" name="phn_number" type="text" class="form-control enquiry-form" id="phn_number" pattern="[789][0-9]{9}" placeholder="9647568345">
+                      <label for="floatingInput">Phone number*</label>
+                  </div>
+              </div>
+          </div>
+
+          <div class="forminputbox_wrapper">
+            <div class="leftico_panel">
+                  <img src="https://www.theaquarious.com/assets/icons/envelope.svg" alt="evvelope icon">
+              </div>
+              <div class="rightbox_panel">
+                  <div class="form-floating">
+                      <input required="" name="email" type="email" class="form-control enquiry-form" id="floatingInput" placeholder="name@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                      <label for="floatingInput">Email*</label>
+                  </div>
+              </div>
+          </div>
+
+          <button class="btn b start-project-btn bg-warning mt-4" type="submit">
+            <span class="text-dark">Request a 30 min free consultation</span>
+          </button>
+          
+
+          {{-- <div class="row">
+            <div>
+              <a href="enquiry">
+                <button class="start-project-btn bg-warning">                
+                  <span class="text-dark">Start Your Project 
+                    <img src="https://www.theaquarious.com/assets/icons/button-arrow.svg" alt="arrow" width="25px">
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div> --}}
+
+        </form>
+    </div>
     </section>
 
     {{-- Why choose panel --}}
@@ -160,13 +272,13 @@
 
         <div class="waviy pt-5 ps-5">
           <span style="--i:1">I</span>
-          <span style="--i:1">n</span>
-          <span style="--i:2">d</span>
-          <span style="--i:3">u</span>
-          <span style="--i:4">s</span>
-          <span style="--i:5">t</span>
-          <span style="--i:6">r</span>
-          <span style="--i:7">y</span>
+          <span style="--i:2">n</span>
+          <span style="--i:3">d</span>
+          <span style="--i:4">u</span>
+          <span style="--i:5">s</span>
+          <span style="--i:6">t</span>
+          <span style="--i:7">r</span>
+          <span style="--i:8">y</span>
         </div>
 
        <div class="container text-center">
@@ -307,14 +419,14 @@
     <section class="client-panel">
         <div class="waviy pt-5 ps-5">
           <span style="--i:1">C</span>
-          <span style="--i:1">l</span>
-          <span style="--i:2">i</span>
-          <span style="--i:3">e</span>
-          <span style="--i:4">n</span>
-          <span style="--i:5">t</span>
-          <span style="--i:6">e</span>
-          <span style="--i:7">l</span>
+          <span style="--i:2">l</span>
+          <span style="--i:3">i</span>
+          <span style="--i:4">e</span>
+          <span style="--i:5">n</span>
+          <span style="--i:6">t</span>
           <span style="--i:7">e</span>
+          <span style="--i:8">l</span>
+          <span style="--i:9">e</span>
         </div>
         <div class="container">
           <h3>We work with great people</h3>
@@ -407,14 +519,14 @@
     <section class="solution-panel">
       <div class="waviy pt-5 ps-5">
         <span style="--i:1">S</span>
-        <span style="--i:1">o</span>
-        <span style="--i:2">l</span>
-        <span style="--i:3">u</span>
-        <span style="--i:4">t</span>
-        <span style="--i:5">i</span>
-        <span style="--i:6">o</span>
-        <span style="--i:7">n</span>
-        <span style="--i:7">s</span>
+        <span style="--i:2">o</span>
+        <span style="--i:3">l</span>
+        <span style="--i:4">u</span>
+        <span style="--i:5">t</span>
+        <span style="--i:6">i</span>
+        <span style="--i:7">o</span>
+        <span style="--i:8">n</span>
+        <span style="--i:9">s</span>
       </div>
       <div class="container">
         <h2 class="heading-two text-center">What we do best</h2>
@@ -756,20 +868,21 @@
     <section class="specify-panel">
       <div class="waviy pt-5 ps-5">
         <span style="--i:1">S</span>
-        <span style="--i:1">p</span>
-        <span style="--i:2">e</span>
-        <span style="--i:3">c</span>
-        <span style="--i:4">i</span>
-        <span style="--i:5">a</span>
-        <span style="--i:6">l</span>
-        <span style="--i:7">i</span>
-        <span style="--i:7">z</span>
-        <span style="--i:7">a</span>
-        <span style="--i:7">t</span>
-        <span style="--i:7">i</span>
-        <span style="--i:7">o</span>
-        <span style="--i:7">n</span>
+        <span style="--i:2">p</span>
+        <span style="--i:3">e</span>
+        <span style="--i:4">c</span>
+        <span style="--i:5">i</span>
+        <span style="--i:6">a</span>
+        <span style="--i:7">l</span>
+        <span style="--i:8">i</span>
+        <span style="--i:9">z</span>
+        <span style="--i:10">a</span>
+        <span style="--i:11">t</span>
+        <span style="--i:12">i</span>
+        <span style="--i:13">o</span>
+        <span style="--i:14">n</span>
       </div>
+      
       <div class="container mt-5">
         <div class="row gy-5">
 
@@ -799,9 +912,9 @@
               <div class="icon_box">
                   <img src="https://www.theaquarious.com/assets/icons/os-three.svg" alt="scalable operations">
                   <div class="img-dxc">
-                      <h6>Scalable Operations</h6>
-                      <p>Your website speaks! With our unique and eye catching designs, attract business from al
-                          over the world.</p>
+                    <h6>Scalable Operations</h6>
+                    <p>Your website speaks! With our unique and eye catching designs, attract business from al
+                        over the world.</p>
                   </div>
               </div>
           </div>
@@ -810,27 +923,27 @@
               <div class="icon_box">
                   <img src="https://www.theaquarious.com/assets/icons/os-four.svg" alt="quick turnaround times">
                   <div class="img-dxc">
-                      <h6>Quick Turnaround Time</h6>
-                      <p>Working on a time crunch? You have come to the right place. We work faster than you
-                          imagine.</p>
+                    <h6>Quick Turnaround Time</h6>
+                    <p>Working on a time crunch? You have come to the right place. We work faster than you
+                        imagine.</p>
                   </div>
               </div
           </div>
 
-          {{-- Third row --}}
+          {{-- Third row
           <div class="col-12 col-lg-6 col-md-6 col-sm-6">
-              <div class="icon_box">
-                  <img src="https://www.theaquarious.com/assets/icons/os-five.svg" alt="dedicatd project manager">
-                  <div class="img-dxc">
-                      <h6>Dedicated Project Manager</h6>
-                      <p>Need assistance now? We’re on it! Your assigned project manager is here to cater to your
-                          individual requirements. </p>
-                  </div>
-              </div>
+            <div class="icon_box">
+                <img src="https://www.theaquarious.com/assets/icons/os-five.svg" alt="dedicatd project manager">
+                <div class="img-dxc">
+                    <h6>Dedicated Project Manager</h6>
+                    <p>Need assistance now? We’re on it! Your assigned project manager is here to cater to your
+                        individual requirements. </p>
+                </div>
+            </div>
           </div>
 
-          <div class="col-12 col-lg-6 col-md-6 col-sm-6">
-             <div class="icon_box">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+              <div class="icon_box">
                   <img src="https://www.theaquarious.com/assets/icons/os-six.svg" alt="agnecy-centric processes">
                   <div class="img-dxc">
                       <h6>Agency-Centric Processes</h6>
@@ -838,14 +951,49 @@
                         beyond your expectations.</p>
                   </div>
               </div>
-          </div>
+            </div> --}}
 
+        </div>
       </div>
+    </section>
+
+    <section class="stay-update-panel">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="left d-flex">
+                    <img src="https://www.theaquarious.com/assets/images/mail-ico.svg" alt="email icon">
+                    <article>
+                        <h3>Stay updated</h3>
+                        Unplug, Untie and Unwind...it's that simple.
+                    </article>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 pt-3">
+                <div class="right">
+                  <form id="subscribeCall">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-7">
+                            <div class="form-floating">
+                                <input required="" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" class="form-control" id="floatingInput" placeholder="">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5 text-center text-sm-start mt-sm-0 mt-3">
+                            <input type="submit" name="submit" class="custom_button nwsltrsubmit" value="Subscribe now">
+                            <div class="loading"></div>
+                        </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
       </div>
     </section>
 
     {{-- Client reviews --}}
-    <section class="review-panel">
+    {{-- <section class="review-panel">
       <div class="container">
         <h2>
           Client's Reviews <img src="https://www.theaquarious.com/assets/images/star-fill.svg" alt="star rating">
@@ -962,5 +1110,5 @@
         </div>
 
       </div>
-    </section>
+    </section> --}}
 @endsection
