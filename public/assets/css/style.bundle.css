@@ -558,7 +558,7 @@ span::before, span::after{
     border-left: 8px solid white;
     padding-left: 50px;
     font-size: 40px;
-    margin: 20px 0;
+    margin: 20px 20px;
 
 }
 
@@ -756,4 +756,136 @@ span::before, span::after{
 
 .enquiry-form{
     background: #fff !important;
+}
+
+.enquiry-banner{
+    padding: 200px 0px;
+    background: url('https://www.theaquarious.com/assets/images/enquiry-banner.jpg');
+    background-position: center center !important;
+    background-size: cover !important;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    overflow: hidden;
+}
+
+.enquiry-banner .container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.enquiry-banner h1{
+    text-align: left;
+    font-size: 40px;
+}
+
+.enquiry-banner h1 span{
+    display: block;
+    letter-spacing: 0.8px;
+    font-size: 22px;
+    max-width: 850px;
+    margin: 0 auto;
+    width: 100%;
+    color: #000;
+    text-transform: initial;
+    font-weight: 600;
+}
+
+.enquiry-main {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 150px 0;
+}
+
+
+.enquiry-main .enq-left {
+    min-height: 25vh;
+    position: sticky;
+    top: 110px;
+}
+
+.enquiry-main .enq-left .title-st2 {
+    padding: 0 0 70px;
+}
+
+.title-st2 h3 {
+    color: #00a2ff;
+    font-size: 40px;
+}
+
+.enquiry-main .enq-left .title-st2 h3 span {
+    display: block;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.enquiry-main .enq-left p {
+    padding-right: 0;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+}
+
+.query-form{
+    width: 50%;
+}
+
+.enquiry-main .enq-right {
+    position: relative;
+}
+
+.enquiry-main .enq-right img.e-erro {
+    position: absolute;
+    top: -178px;
+    right: 0;
+}
+
+.enquiry-main .enq-right form.contact-us {
+    background: #ffffff;
+    box-shadow: 0px 20px 50px #dbe2fe;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.enquiry-main .enq-right form.contact-us .form-group {
+    margin-bottom: 20px;
+}
+
+.enquiry-main .enq-right form.contact-us label {
+    color: #737b80;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.enquiry-main .enq-right form.contact-us input:not([type=submit]), .enquiry-main .enq-right form.contact-us textarea, .enquiry-main .enq-right form.contact-us select {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin: 0 0 15px;
+    padding: 18px;
+    color: #000000;
+    font-size: 16px;
+    border: 2px solid #f2f4f5;
+    font-weight: 300;
+    background-color: #f2f4f5;
+}
+
+.enquiry-main .enq-right form.contact-us button[type=submit] {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.enquiry-main .enq-right form.contact-us button[type=submit] span {
+    background-color: #158efb;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px 20px;
 }

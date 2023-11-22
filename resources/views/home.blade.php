@@ -957,40 +957,7 @@
       </div>
     </section>
 
-    <section class="stay-update-panel">
-      <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-                <div class="left d-flex">
-                    <img src="https://www.theaquarious.com/assets/images/mail-ico.svg" alt="email icon">
-                    <article>
-                        <h3>Stay updated</h3>
-                        Unplug, Untie and Unwind...it's that simple.
-                    </article>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12 pt-3">
-                <div class="right">
-                  <form id="subscribeCall">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-sm-7">
-                            <div class="form-floating">
-                                <input required="" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" class="form-control" id="floatingInput" placeholder="">
-                                <label for="floatingInput">Email address</label>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-5 text-center text-sm-start mt-sm-0 mt-3">
-                            <input type="submit" name="submit" class="custom_button nwsltrsubmit" value="Subscribe now">
-                            <div class="loading"></div>
-                        </div>
-                    </div>
-                  </form>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
+    
 
     {{-- Client reviews --}}
     {{-- <section class="review-panel">
