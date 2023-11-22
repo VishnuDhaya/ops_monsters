@@ -5,7 +5,7 @@
         </div>  
         <ul class="nav flex-fill justify-content-end">
             <li class="nav-item nav-li">
-              <a class="nav-link text-dark" href="#">Home</a>
+              <a class="nav-link text-dark" href="/">Home</a>
             </li>
             <li class="nav-item nav-li">
               <a class="nav-link text-dark" href="#">About Us</a>
@@ -14,7 +14,7 @@
                 <a class="nav-link text-dark" href="#">Zuno Driver</a>
             </li>
             <li class="nav-item nav-li">
-                <a class="nav-link text-dark" href="#">Live Traffic</a>
+                <a class="nav-link text-dark" href="/enquiry">Enquiry</a>
             </li>
             <li class="nav-item nav-li">
                 <a class="nav-link text-dark" href="#">Contact Us</a>

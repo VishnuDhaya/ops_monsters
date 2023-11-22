@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/', [RouteController::class, 'home']);
+
+Route::get('/enquiry', [RouteController::class, 'enquiry']);
