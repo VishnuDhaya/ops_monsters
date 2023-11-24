@@ -8,7 +8,7 @@
               <a class="nav-link text-dark" href="/">Home</a>
             </li>
             <li class="nav-item nav-li">
-              <a class="nav-link text-dark" href="#">About Us</a>
+              <a class="nav-link text-dark" href="/aboutus">About Us</a>
             </li>
             <li class="nav-item nav-li">
                 <a class="nav-link text-dark" href="#">Zuno Driver</a>

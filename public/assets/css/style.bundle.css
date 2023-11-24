@@ -889,3 +889,110 @@ span::before, span::after{
     font-size: 15px;
     padding: 15px 20px;
 }
+
+.aboutus-banner{
+    background: url('https://www.theaquarious.com/assets/images/about-banner.jpg');
+    padding: 200px 0px 200px 0px;
+}
+
+.aboutus-banner .inner-heading {
+    color: #fff;
+}
+
+.aboutus-banner .inner-heading h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aboutus-banner .inner-heading h1 span{
+    color: #fff !important;
+    margin: 15px auto !important;
+    display: block;
+    letter-spacing: 0.8px;
+    font-size: 22px;
+    max-width: 850px;
+    margin: 0 auto;
+    width: 100%;
+    color: #000;
+    text-transform: initial;
+    font-weight: 600;
+}
+
+.inner-heading h1 span.fontweight-normal {
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+.bit-history .title-panel{
+    background: #fff;
+    padding: 50px 0 30px !important;
+
+}
+
+.bit-history .title-panel h3{
+    color: #00a2ff;
+    font-size: 40px;
+}
+
+.bit-history .desc-panel{
+    position: relative; 
+    background-color: #f2f4f5;
+    padding: 150px 0px;
+
+}
+
+.bit-history .desc-panel img{
+    max-width: 200px;  
+    background: #f6f6f600;
+}
+
+.bit-history .desc-panel img.nine-gl {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.desc-panel .rw-text{
+    letter-spacing: 4.8px;
+    font-size: 18px;
+    line-height: 31px;
+    margin-bottom: 50px;
+    max-width: 640px;
+}
+
+.desc-panel .zigzag-slider-left {   
+    width: 50% !important;
+}
+
+.desc-panel .zigzag-slider-right img {
+    border-radius: 50px 0 0 50px;
+    max-width: 320px;
+}
+
+
+.desc-panel .zigzag-slider-left img {
+    border-radius: 0 50px 50px 0;
+    max-width: 320px;
+    /* margin-right: 400px; */
+}
+
+.desc-panel .zigzag-slider-content .article h4{
+    font-size: calc(1.275rem + .3vw);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+}
+.desc-panel .article{
+    padding-top: 60px;
+}
+
+.desc-panel .article p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: serif;
+}

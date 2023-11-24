@@ -13,4 +13,8 @@ class RouteController extends Controller
     public function enquiry(){
         return view('pages.enquiry');
     }
+    
+    public function aboutus(){
+        return view('pages.aboutus');
+    }
 }
